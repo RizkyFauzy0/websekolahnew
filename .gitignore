@@ -1,0 +1,16 @@
+# Uploads folder (ignore uploaded files but keep directory structure)
+uploads/*
+!uploads/.gitkeep
+
+# Config file with sensitive data
+config.php
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
